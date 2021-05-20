@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title>Onclick</title>
+</head>
+<body>
+
+<p> Hvilken av alternativene er en saltvannsfisk?</p>
+
+<h1 id="sp1"></h1>
+<h1 id="sp2"></h2>
+<h1 id="sp3"></h1>
+<h1 onclick="doSomething()"></h1>
+<h1 onclick="doSomething()"></h1>
+<h1 onclick="doSomething()"></h1>
+<button onclick="doSomething()">Gjedde</button>
+<button onclick="doSomething1()">Sei</button>
+<button onclick="doSomething()">Abbor</button>
+
+<script>
+    function doSomething() {
+        document.getElementById('sp1').innerHTML = 'Feil';
+    }
+    function doSomething1() {
+        document.getElementById('sp1').innerHTML = 'Riktig';
+    }
+</script>
+
+<!-- <button onclick="doSomething()">Gjedde</button>
+<button onclick="sp2()">Sei</button>
+<button onclick="sp3()">Abbor</button> -->
+
+
+
+
+
+
+</body>
+</html>
